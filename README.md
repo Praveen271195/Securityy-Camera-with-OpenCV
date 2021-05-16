@@ -62,7 +62,7 @@ b. Select a python Base interpreter (no need to check the boxes under interprete
 16. git commit -am &quot;initial launch&quot;
 17. git push heroku master
 
-## Link to the Dash app:
+## Link to Dash app:
 
 https://dd-covid-dashboard.herokuapp.com/
 
