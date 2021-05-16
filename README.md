@@ -1,10 +1,11 @@
-<h1 align="center">Covid-19 Global Dashboard </h1>
+<h1 align="center">Covid-19 Global Dashboard 🦠 </h1>
 
 ## Motivation:
-This repository was created to contain the motion detection and alarm system built with Python using OpenCV library for experential learnning pupose. 
+This Covid-19 dashboard was created from scratch to visuvalize the global trend of infections and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community. 
 
-## Future goal:
-This project will later be developed in required format to program a Raspberry Pi to implement in my dad's office and godown for security purpose.
+## Libraries used:
+-
+Thi
 
 ## Synopsis:
 Motion detetion is one of the best applications of OpenCV and this is has been used to build acan be 
