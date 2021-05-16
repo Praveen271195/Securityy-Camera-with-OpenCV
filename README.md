@@ -22,6 +22,20 @@ Face detection using Haar cascades is a machine learning based approach where a 
 - You may have to tweak these values to get the best results.
 - Faces contains a list of coordinates for the rectangular regions where faces were found. We use these coordinates to draw the rectangles over the detected face.
 
+## Resources for the Covid dashboard:
+- <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
+- <a href="https://plotly.com/python/indicator/">Indicator</a>
+- <a href="https://plotly.com/python/pie-charts/">pie chart</a>
+- <a href="https://plotly.com/python/line-charts/">Line Chart</a>
+- <a href="https://plotly.com/python/bar-charts/">Bar Chart</a>
+- <a href="https://plotly.com/python/scattermapbox/">Scatter mapbox</a>
+- <a href="https://account.mapbox.com/auth/signin/">Mapbox Account</a>
+- <a href="https://dash.plotly.com/dash-core-components/rangeslider">Range Slider</a>
+- <a href="https://plotly.com/python/marker-style/">Marker Style</a>
+- <a href="https://dash.plotly.com/datatable">Data Table</a>
+- <a href="https://plotly.com/python/bubble-charts/">Bubble Chart</a>
+
+
 ## Steps used to deploy Covid-19 Dash app on Heroku:
 
 1. Sign up for account on Heroku
