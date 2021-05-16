@@ -3,7 +3,7 @@
 ## Motivation:
 This Covid-19 dashboard was created from scratch to visuvalize the global trend of infections and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community. 
 
-## Resources for the Covid dashboard:
+## Resources for Covid dashboard:
 - <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
 - <a href="https://plotly.com/python/indicator/">Indicator</a>
 - <a href="https://plotly.com/python/pie-charts/">Pie chart</a>
