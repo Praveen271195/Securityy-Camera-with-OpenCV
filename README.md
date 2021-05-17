@@ -68,3 +68,4 @@ https://dd-covid-dashboard.herokuapp.com/
 
 ## Credits:
 - <a href="https://www.youtube.com/">YouTube</a> for tutorials
+- <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE COVID-19 Data</a> for tutorials
