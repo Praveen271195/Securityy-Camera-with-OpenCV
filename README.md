@@ -33,9 +33,10 @@ There are two regional charts, described below. These charts can display absolut
 
 [<img src='XX' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-- Dynamic Map: The infection map features a circular marker over each sub-region. The size of the marker is relative to the CONFIRMED cases of that region. When the mouse poiter is hovered over the country/location that is selected from the dropdown, NAME of the country, Cummilative CONFIRMED cases, DEATHS and RECOVERIES are displayed. The map is zoomable and dragable for ease of use.
 
-[<img src='XX' alt='MAp' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+5. Dynamic Map: The infection map features a circular marker over each sub-region. The size of the marker is relative to the CONFIRMED cases of that region. When the mouse poiter is hovered over the country/location that is selected from the dropdown, NAME of the country, Cummilative CONFIRMED cases, DEATHS and RECOVERIES are displayed. The map is zoomable and dragable for ease of use.
+
+[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 ## Resources for Covid dashboard:
 - <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
