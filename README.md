@@ -7,7 +7,7 @@ This Covid-19 dashboard was created from scratch to visuvalize the global trend 
 A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/. Built in Python and Dash, with charts made in Plotly. The data is provided by Johns Hopkins Center for Systems Science and Engineering which is updated every day.
 
 ### App Layout:
-[<img src='https://media.giphy.com/media/JiBNaric6Jecnd535A/giphy.gif' alt='CovidDashApp' height='400'>](https://www.linkedin.com/in/praveen-chandrasekaran-9620ab165/)
+[<img src='https://media.giphy.com/media/JiBNaric6Jecnd535A/giphy.gif' alt='CovidDashApp' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 ## Resources for Covid dashboard:
 - <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
