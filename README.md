@@ -10,22 +10,26 @@ A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/.
 [<img src='https://media.giphy.com/media/JiBNaric6Jecnd535A/giphy.gif' alt='CovidDashApp' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 There are five main components in the covid dashboard,
-- Indicators: There are four indicators and they are: Confirmed, Deaths, Recovered and Active cases on the global scale.
+1. Indicators: There are four indicators and they are: Confirmed, Deaths, Recovered and Active cases on the global scale.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Indicators.PNG' alt='Indicators' height='350'>](https://dd-covid-dashboard.herokuapp.com/)
 
-1. CONFIRMED is the running total of all cases tested and confirmed in the selected region.
-2. DEATHS measures the running total of all COVID-19-related deaths.
-3. RECOVERED indicates the number of cases in which the patient is deemed to have recovered from the illness.
-4. ACTIVE measures only the cases active today. (Active cases are calculated as ACTIVE = CONFIRMED - DEATHS - RECOVERED)
+- CONFIRMED is the running total of all cases tested and confirmed in the selected region.
+- DEATHS measures the running total of all COVID-19-related deaths.
+- RECOVERED indicates the number of cases in which the patient is deemed to have recovered from the illness.
+- ACTIVE measures only the cases active today. (Active cases are calculated as ACTIVE = CONFIRMED - DEATHS - RECOVERED)
  
-- Dropdown box: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. 
+2. Dropdown box: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. 
 
 [<img src='XX' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-- Donut Chart: There are two regional charts, described below. These charts can display absolute infection numbers within the region, or numbers relative to the region's population. Selecting the radio button for Values per 100,000 of population normalizes each curve by population and can make it easier to compare the infection rates of regions with vastly different population counts. Selecting Total values returns the charts to absolute numbers.
+There are two regional charts, described below. These charts can display absolute infection numbers within the region, or numbers relative to the region's population. Selecting the radio button for Values per 100,000 of population normalizes each curve by population and can make it easier to compare the infection rates of regions with vastly different population counts. Selecting Total values returns the charts to absolute numbers.
 
-- Line and bar chart:
+3. Donut Chart: Division of total cases in a country is shown via Donut chart. It help us know teh adversity of the countries situation. Hovering on the chart will show the respective percentage of Deaths/Acive cases/Recoveries.
+
+[<img src='XX' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+
+4. Line and bar chart:
 
 [<img src='XX' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
