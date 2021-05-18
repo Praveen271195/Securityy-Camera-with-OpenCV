@@ -12,7 +12,7 @@ A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/.
 There are five main components in the covid dashboard,
 - Indicators: There are four indicators and they are: Confirmed, Deaths, Recovered and Active cases on the global scale.
 
-[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Indicators.PNG' alt='Indicators' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Indicators.PNG' alt='Indicators' height='350'>](https://dd-covid-dashboard.herokuapp.com/)
 
 CONFIRMED is the running total of all cases tested and confirmed in the selected region.
 DEATHS measures the running total of all COVID-19-related deaths.
