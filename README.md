@@ -101,4 +101,4 @@ https://dd-covid-dashboard.herokuapp.com/
 - <a href="https://www.youtube.com/">YouTube</a> for tutorials
 - <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE COVID-19 Data</a> for data source
 
-## Made with care in India by the Data Detective [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>]
+## Made with care in India by the Data Detective [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Data%20Detective%20Logo.png' alt='DD_Logo' height='100'>]
