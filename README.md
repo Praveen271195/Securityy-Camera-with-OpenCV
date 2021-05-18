@@ -14,10 +14,10 @@ There are five main components in the covid dashboard,
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Indicators.PNG' alt='Indicators' height='350'>](https://dd-covid-dashboard.herokuapp.com/)
 
-- CONFIRMED is the running total of all cases tested and confirmed in the selected region.
-- DEATHS measures the running total of all COVID-19-related deaths.
-- RECOVERED indicates the number of cases in which the patient is deemed to have recovered from the illness.
-- ACTIVE measures only the cases active today. (Active cases are calculated as ACTIVE = CONFIRMED - DEATHS - RECOVERED)
+a. CONFIRMED is the running total of all cases tested and confirmed in the selected region.
+b. DEATHS measures the running total of all COVID-19-related deaths.
+c. RECOVERED indicates the number of cases in which the patient is deemed to have recovered from the illness.
+d. ACTIVE measures only the cases active today. (Active cases are calculated as ACTIVE = CONFIRMED - DEATHS - RECOVERED)
  
 - Dropdown box: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. 
 
