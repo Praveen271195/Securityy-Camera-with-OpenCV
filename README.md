@@ -10,7 +10,7 @@ A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/.
 [<img src='https://media.giphy.com/media/JiBNaric6Jecnd535A/giphy.gif' alt='CovidDashApp' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 There are five main components in the covid dashboard,
-1. Indicators: There are four indicators and they are: Confirmed, Deaths, Recovered and Active cases on the global scale.
+1. <b>Indicators</b>: There are four indicators and they are: Confirmed, Deaths, Recovered and Active cases on the global scale.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Indicators.PNG' alt='Indicators' height='350'>](https://dd-covid-dashboard.herokuapp.com/)
 
@@ -19,17 +19,17 @@ There are five main components in the covid dashboard,
 - RECOVERED indicates the number of cases in which the patient is deemed to have recovered from the illness.
 - ACTIVE measures only the cases active today. (Active cases are calculated as ACTIVE = CONFIRMED - DEATHS - RECOVERED)
  
-2. Dropdown box: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. 
+2. <b>Dropdown box</b>: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. 
 
 [<img src='XX' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 There are two regional charts, described below. These charts can display absolute infection numbers within the region, or numbers relative to the region's population. Selecting the radio button for Values per 100,000 of population normalizes each curve by population and can make it easier to compare the infection rates of regions with vastly different population counts. Selecting Total values returns the charts to absolute numbers.
 
-3. Donut Chart: Division of total cases in a country is shown via Donut chart. It help us know teh adversity of the countries situation. Hovering on the chart will show the respective percentage of Deaths/Acive cases/Recoveries.
+3. <b>Donut Chart</b>: Division of total cases in a country is shown via Donut chart. It help us know teh adversity of the countries situation. Hovering on the chart will show the respective percentage of Deaths/Acive cases/Recoveries.
 
 [<img src='XX' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-4. Line and bar chart:
+4. <b>Line and bar chart</b>:
 
 [<img src='XX' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
