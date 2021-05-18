@@ -35,15 +35,6 @@ There are five main components in the covid dashboard,
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-## Description:
-Transforming from wide to long format can be done quite simple with Pandas function "melt".
-
-Transforming data from wide format to long format
-For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
-The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. This format is very difficult to work with. so the first major preprocessing step is to pivot the data in these columns into rows. Transforming from wide to long format can be done quite simple with Pandas function "melt".
-
-Combining Tables
-
 ## Libraries used:
 - <a href="https://pandas.pydata.org/">Pandas</a>
 - <a href="https://dash.plotly.com/dash-html-components">Dash HTML components</a>
@@ -62,6 +53,14 @@ Combining Tables
 - <a href="https://plotly.com/python/marker-style/">Marker Style</a>
 - <a href="https://dash.plotly.com/datatable">Data Table</a>
 - <a href="https://plotly.com/python/bubble-charts/">Bubble Chart</a>
+
+## Description:
+Transforming from wide to long format can be done quite simple with Pandas function "melt".
+
+For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
+The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. This format is very difficult to work with. so the first major preprocessing step is to pivot the data in these columns into rows. Transforming from wide to long format can be done quite simple with Pandas function "melt".
+
+Combining Tables
 
 ## Instructions to deploy Covid-19 Dash app on Heroku:
 
