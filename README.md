@@ -27,7 +27,7 @@ There are five main components in the covid dashboard,
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Donut_chart.png' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-4. <b>Line and bar chart</b>: Combination of line and bar chart will show the last 60 days, daily confirmed cases in the selected country. A rolling average of last 7 days is also shown with the help of a line chart to see the trend clealy. In the above case the trend of confirmed cases in India is reducing. Good news! :D
+4. <b>Line and bar chart</b>: Combination of line and bar chart will show the last 60 days, daily confirmed cases in the selected country. A rolling average of last 7 days is also shown with the help of a line chart to see the trend clealy. In the below snap shot, the trend of confirmed cases in India is reducing. Good news! :D
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Line%26Bar_chart.png' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
@@ -35,13 +35,8 @@ There are five main components in the covid dashboard,
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-
-
-
-
 ## Description:
 Transforming from wide to long format can be done quite simple with Pandas function "melt".
-
 
 Transforming data from wide format to long format
 For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
@@ -105,3 +100,5 @@ https://dd-covid-dashboard.herokuapp.com/
 ## Credits:
 - <a href="https://www.youtube.com/">YouTube</a> for tutorials
 - <a href="https://github.com/CSSEGISandData/COVID-19">JHU CSSE COVID-19 Data</a> for data source
+
+## Made with care by the Data Detective [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>]
