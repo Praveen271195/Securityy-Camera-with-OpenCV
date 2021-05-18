@@ -1,7 +1,10 @@
 <h1 align="center">Covid-19 Global Dashboard 🦠 </h1>
 
 ## Motivation:
-This Covid-19 dashboard was created from scratch to visuvalize the global trend of infections and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community. 
+This Covid-19 dashboard was created from scratch to visuvalize the global trend of infections and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community.
+
+## About:
+A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/. Built in Python and Dash, with charts made in Plotly. The data is provided by Johns Hopkins Center for Systems Science and Engineering which is updated every day.
 
 ## Resources for Covid dashboard:
 - <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
@@ -23,7 +26,7 @@ This Covid-19 dashboard was created from scratch to visuvalize the global trend 
 - <a href="https://plotly.com/dash/">Dash</a>
 
 ## Description:
-Face detection using Haar cascades is a machine learning based approach where a cascade function is trained with a set of input data. OpenCV already contains many pre-trained classifiers for face, eyes, smiles, etc.. We are using face classifier in this project. You can experiment with other classifiers as well.Transforming from wide to long format can be done quite simple with Pandas function "melt".
+Transforming from wide to long format can be done quite simple with Pandas function "melt".
 
 
 Transforming data from wide format to long format
