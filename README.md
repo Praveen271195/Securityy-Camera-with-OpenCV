@@ -36,7 +36,7 @@ The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths
 Combining Tables
 
 
-## Steps used to deploy Covid-19 Dash app on Heroku:
+## Instructions to deploy Covid-19 Dash app on Heroku:
 
 1. Sign up for account on Heroku
 2. Create your App name (this will be part of the url)
