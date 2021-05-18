@@ -21,17 +21,17 @@ There are five main components in the covid dashboard,
  
 2. <b>Dropdown box</b>: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. 
 
-[<img src='XX' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Dropdown.png' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 There are two regional charts, described below. These charts can display absolute infection numbers within the region, or numbers relative to the region's population. Selecting the radio button for Values per 100,000 of population normalizes each curve by population and can make it easier to compare the infection rates of regions with vastly different population counts. Selecting Total values returns the charts to absolute numbers.
 
 3. <b>Donut Chart</b>: Division of total cases in a country is shown via Donut chart. It help us know teh adversity of the countries situation. Hovering on the chart will show the respective percentage of Deaths/Acive cases/Recoveries.
 
-[<img src='XX' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Donut_chart.png' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 4. <b>Line and bar chart</b>:
 
-[<img src='XX' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Line%26Bar_chart.png' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 
 5. <b>Dynamic Map</b>: The infection map features a circular marker over each sub-region. The size of the marker is relative to the CONFIRMED cases of that region. When the mouse poiter is hovered over the country/location that is selected from the dropdown, NAME of the country, Cummilative CONFIRMED cases, DEATHS and RECOVERIES are displayed. The map is zoomable and dragable for ease of use.
