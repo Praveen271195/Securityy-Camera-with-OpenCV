@@ -29,14 +29,33 @@ There are two regional charts, described below. These charts can display absolut
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Donut_chart.png' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-4. <b>Line and bar chart</b>:
+4. <b>Line and bar chart</b>: Combination of line and bar chart will show the last 60 days, daily confirmed cases in the selected country. A rolling average of last 7 days is also shown with the help of a line chart to see the trend clealy. In the above case the trend of confirmed cases in India is reducing. Good news! :D
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Line%26Bar_chart.png' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
-
 
 5. <b>Dynamic Map</b>: The infection map features a circular marker over each sub-region. The size of the marker is relative to the CONFIRMED cases of that region. When the mouse poiter is hovered over the country/location that is selected from the dropdown, NAME of the country, Cummilative CONFIRMED cases, DEATHS and RECOVERIES are displayed. The map is zoomable and dragable for ease of use.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+
+
+
+
+
+## Description:
+Transforming from wide to long format can be done quite simple with Pandas function "melt".
+
+
+Transforming data from wide format to long format
+For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
+The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. This format is very difficult to work with. so the first major preprocessing step is to pivot the data in these columns into rows. Transforming from wide to long format can be done quite simple with Pandas function "melt".
+
+Combining Tables
+
+## Libraries used:
+- <a href="https://pandas.pydata.org/">Pandas</a>
+- <a href="https://dash.plotly.com/dash-html-components">Dash HTML components</a>
+- <a href="https://dash.plotly.com/dash-core-components">Dash core components</a>
+- <a href="https://plotly.com/dash/">Dash</a>
 
 ## Resources for Covid dashboard:
 - <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
@@ -50,23 +69,6 @@ There are two regional charts, described below. These charts can display absolut
 - <a href="https://plotly.com/python/marker-style/">Marker Style</a>
 - <a href="https://dash.plotly.com/datatable">Data Table</a>
 - <a href="https://plotly.com/python/bubble-charts/">Bubble Chart</a>
-
-## Libraries used:
-- <a href="https://pandas.pydata.org/">Pandas</a>
-- <a href="https://dash.plotly.com/dash-html-components">Dash HTML components</a>
-- <a href="https://dash.plotly.com/dash-core-components">Dash core components</a>
-- <a href="https://plotly.com/dash/">Dash</a>
-
-## Description:
-Transforming from wide to long format can be done quite simple with Pandas function "melt".
-
-
-Transforming data from wide format to long format
-For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
-The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. This format is very difficult to work with. so the first major preprocessing step is to pivot the data in these columns into rows. Transforming from wide to long format can be done quite simple with Pandas function "melt".
-
-Combining Tables
-
 
 ## Instructions to deploy Covid-19 Dash app on Heroku:
 
