@@ -21,7 +21,7 @@ There are five main components in the covid dashboard,
  
 2. <b>Dropdown box</b>: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. Absolute new infection numbers, new deaths reported, new recoveries and active cases in a day within the selected region is shown in the data card below.
 
-[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Dropdown.png' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+                                [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Dropdown.png' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 3. <b>Donut Chart</b>: Division of total cases in a country is shown via Donut chart. It helps us know the adversity of the Covid situation in the selected country. Hovering on the chart will show the respective percentage of Deaths, Acive cases, Recoveries.
 
