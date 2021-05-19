@@ -4,13 +4,13 @@
 This Covid-19 dashboard was created from scratch to visuvalize the global trend of Corona Virus infections in the simplest way and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community.
 
 ## About the Application:
-A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/. Built in Python and Dash, with charts made in Plotly. The data is provided by Johns Hopkins Center for Systems Science and Engineering which is updated every day.
+A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/. Built using Python and Dash, with charts made in Plotly. The data is provided by Johns Hopkins Center for Systems Science and Engineering which is updated every day.
 
 ### App Layout:
 [<img src='https://media.giphy.com/media/JiBNaric6Jecnd535A/giphy.gif' alt='CovidDashApp' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 There are five main components in the covid dashboard,
-1. <b>Indicators</b>: There are four indicators and they are: Confirmed, Deaths, Recovered and Active cases on the global scale.
+1. <b>Indicators</b>: There are four indicators and they are; Confirmed, Deaths, Recovered and Active cases on the global scale.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Indicators.PNG' alt='Indicators' height='350'>](https://dd-covid-dashboard.herokuapp.com/)
 
@@ -19,11 +19,11 @@ There are five main components in the covid dashboard,
 - RECOVERED indicates the number of cases in which the patient is deemed to have recovered from the illness.
 - ACTIVE measures only the cases active today. (Active cases are calculated as ACTIVE = CONFIRMED - DEATHS - RECOVERED)
  
-2. <b>Dropdown box</b>: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. Absolute new infection numbers, new deaths reported, new recoveries and active cases in a day within the selected region in shown is the data card below.
+2. <b>Dropdown box</b>: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. Absolute new infection numbers, new deaths reported, new recoveries and active cases in a day within the selected region is shown in the data card below.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Dropdown.png' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-3. <b>Donut Chart</b>: Division of total cases in a country is shown via Donut chart. It help us know teh adversity of the countries situation. Hovering on the chart will show the respective percentage of Deaths/Acive cases/Recoveries.
+3. <b>Donut Chart</b>: Division of total cases in a country is shown via Donut chart. It helps us know the adversity of the Covid situation in the selected country. Hovering on the chart will show the respective percentage of Deaths, Acive cases, Recoveries.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Donut_chart.png' alt='DonutChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
@@ -31,7 +31,7 @@ There are five main components in the covid dashboard,
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Line%26Bar_chart.png' alt='LineAndBarChart' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
-5. <b>Dynamic Map</b>: The infection map features a circular marker over each sub-region. The size of the marker is relative to the CONFIRMED cases of that region. When the mouse poiter is hovered over the country/location that is selected from the dropdown, NAME of the country, Cummilative CONFIRMED cases, DEATHS and RECOVERIES are displayed. The map is zoomable and dragable for ease of use.
+5. <b>Dynamic Map</b>: The infection map features a circular marker over each region. The size of the marker is relative to the CONFIRMED cases of that region. When the mouse poiter is hovered over the country/location that is selected from the dropdown, NAME of the country, Cummilative CONFIRMED cases, DEATHS and RECOVERIES are displayed. The map is zoomable and dragable for ease of use.
 
 [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Map.PNG' alt='Map' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
