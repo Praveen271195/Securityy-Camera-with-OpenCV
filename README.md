@@ -21,7 +21,7 @@ There are five main components in the covid dashboard,
  
 2. <b>Dropdown box</b>: Dropdown list box is for the user to select the country for which the Covid tracker has to be visuvalized. Absolute new infection numbers, new deaths reported, new recoveries and active cases in a day within the selected region is shown in the data card below.
 
-                                [<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Dropdown.png' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
+[<img src='https://github.com/Praveen271195/Praveen271195/blob/main/Dropdown.png' alt='Dropdown' height='400'>](https://dd-covid-dashboard.herokuapp.com/)
 
 3. <b>Donut Chart</b>: Division of total cases in a country is shown via Donut chart. It helps us know the adversity of the Covid situation in the selected country. Hovering on the chart will show the respective percentage of Deaths, Acive cases, Recoveries.
 
@@ -54,11 +54,14 @@ There are five main components in the covid dashboard,
 - <a href="https://dash.plotly.com/datatable">Data Table</a>
 - <a href="https://plotly.com/python/bubble-charts/">Bubble Chart</a>
 
-## Description:
-Transforming from wide to long format can be done quite simple with Pandas function "melt".
+## Steps followed during Data Analysis:
+
+The data from CSV file was the imported and manuplated using the popular library - Pandas library. The confimed, deaths and recovered data were stored in thier respective variables and EDA was perfomred on each data. At the first, the data updated by JHU was in a wide format. This was transformed into a longer format with the help of Pandas "melt" function. The data was crossed checked with the current value from other sources. After validation, melt function was applied on all the above data frames. After reshaping the data frames, deaths, recovereries and confirmed data frames were merged into a single data frame. The null values and data types were checked using the panda's info() method. The data coulumn was then converted to date time format using the to_datetime method. Active cases were then calculated using the formula mentioned above. This was then merged with the main data frame. The main data frame was named as covid_data and it was validated by checking the cummilative records for each column. 
+
+
 
 For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
-The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. This format is very difficult to work with. so the first major preprocessing step is to pivot the data in these columns into rows. Transforming from wide to long format can be done quite simple with Pandas function "melt".
+The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. 
 
 Combining Tables
 
