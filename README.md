@@ -41,7 +41,7 @@ There are five main components in the covid dashboard,
 - <a href="https://dash.plotly.com/dash-core-components">Dash core components</a>
 - <a href="https://plotly.com/dash/">Dash</a>
 
-## Resources for Covid dashboard:
+## Resources for Covid Dashboard:
 - <a href="https://github.com/CSSEGISandData/COVID-19">Covid-19 datasets source</a>
 - <a href="https://plotly.com/python/indicator/">Indicator</a>
 - <a href="https://plotly.com/python/pie-charts/">Pie chart</a>
@@ -65,7 +65,7 @@ The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths
 
 Combining Tables
 
-## Instructions to deploy Covid-19 Dash app on Heroku:
+## Instructions to deploy Covid-19 Dash App on Heroku:
 
 1. Sign up for account on Heroku
 2. Create your App name (this will be part of the url)
@@ -95,7 +95,7 @@ b. Select a python Base interpreter (no need to check the boxes under interprete
 16. git commit -am &quot;initial launch&quot;
 17. git push heroku master
 
-## Link to Dash app:
+## Link to Dash App:
 
 https://dd-covid-dashboard.herokuapp.com/
 
