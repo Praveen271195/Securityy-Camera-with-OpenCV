@@ -54,16 +54,9 @@ There are five main components in the covid dashboard,
 - <a href="https://dash.plotly.com/datatable">Data Table</a>
 - <a href="https://plotly.com/python/bubble-charts/">Bubble Chart</a>
 
-## Steps followed during Data Analysis:
+## Steps followed for Data Analysis:
 
 The data from CSV file was the imported and manuplated using the popular library - Pandas library. The confimed, deaths and recovered data were stored in thier respective variables and EDA was perfomred on each data. At the first, the data updated by JHU was in a wide format. This was transformed into a longer format with the help of Pandas "melt" function. The data was crossed checked with the current value from other sources. After validation, melt function was applied on all the above data frames. After reshaping the data frames, deaths, recovereries and confirmed data frames were merged into a single data frame. The null values and data types were checked using the panda's info() method. The data coulumn was then converted to date time format using the to_datetime method. Active cases were then calculated using the formula mentioned above. This was then merged with the main data frame. The main data frame was named as covid_data and it was validated by checking the cummilative records for each column. 
-
-
-
-For more convenient analysis, the next step is to combine confirmed, deaths and recoveries tables into a single one.
-The CSSE Covid-19 dataset consists of three tables about daily confirmed, deaths and recoveries cases per country/region. Each table presents the data in wide (crosstab) format, with each day in a column. 
-
-Combining Tables
 
 ## Instructions to deploy Covid-19 Dash App on Heroku:
 
