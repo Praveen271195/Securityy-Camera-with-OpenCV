@@ -1,7 +1,7 @@
 <h1 align="center">Covid-19 Global Dashboard 🦠 </h1>
 
 ## Motivation:
-This Covid-19 dashboard was created from scratch to visuvalize the global trend of Corona Virus infections in the simplest way and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community.
+This Covid-19 dashboard was created from scratch to visualize the global trend of Corona Virus infections in the simplest way and to keep track of the spread of the virus during the pandemic. This dashboard was of a great support to spread awarness amoung the residents of my gated community.
 
 ## About the Application:
 A web dashboard deployed on Heroku at https://dd-covid-dashboard.herokuapp.com/. Built using Python and Dash, with charts made in Plotly. The data is provided by Johns Hopkins Center for Systems Science and Engineering which is updated every day.
